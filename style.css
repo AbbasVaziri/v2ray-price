@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Zen+Tokyo+Zoo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  color: #fff;
+}
+
+.header {
+  font-family: "Zen Tokyo Zoo", system-ui;
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.header-content {
+  margin-top: 15px;
+  color: #FF8966;
+  font-size: 40px;
+}
+
+.blue-shape {
+  position: absolute;
+  left: 30%;
+  top: 0%;
+  right: auto;
+  bottom: auto;
+  z-index: -1;
+  display: block;
+  width: 60vw;
+  height: 56vw;
+  border-radius: 6.6vw;
+  background-color: #220901;
+  -webkit-transform: rotate(-23deg);
+  -ms-transform: rotate(-23deg);
+  transform: rotate(-23deg);
+}
+
+.plan-price {
+  font-family: "Vazirmatn", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 50px;
+  color: #F6AA1C;
+}
+
+.container-card {
+  font-family: "Vazirmatn", sans-serif;
+  width: 90vw;
+  margin: auto;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #621708;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #fff;
+}
+
+
+.container-card p {
+  font-size: 22px;
+  display: flex;
+}
+
+.container-price {
+  display: flex;
+  margin-top: 12px;
+}
+
+.vahed-pol {
+  margin-right: 5px;
+}
+
+.per-month {
+  margin-top: 20px;
+  font-size: 25px;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .header-content {
+    font-size: 30px;
+  }
+
+  .plan-price {
+    font-size: 18px;
+    margin-top: 30px;
+  }
+
+  .container-card {
+    width: 95vw;
+    padding: 15px;
+  }
+
+  .container-card p {
+    font-size: 18px;
+  }
+
+  .container-card h1{
+    font-size: 16px;
+  }
+
+  .per-month {
+    font-size: 20px;
+  }
+}
